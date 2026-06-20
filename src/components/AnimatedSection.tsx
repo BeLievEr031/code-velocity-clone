@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 
 function AnimatedSection() {
     return (
@@ -1317,7 +1317,7 @@ function AnimatedSection() {
                                     </div>
                                 </div>
                             </section>
-                         
+
                             <div className="hidden h-[60vh] lg:block"></div>
                         </div>
                     </div>
