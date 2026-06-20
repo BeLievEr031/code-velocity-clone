@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+/* Geist Pixel */
+@font-face {
+  font-family: "GeistPixelCircle";
+  src: url("/fonts/GeistPixel_Circle.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "GeistPixelGrid";
+  src: url("/fonts/GeistPixel_Grid.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "GeistPixelLine";
+  src: url("/fonts/GeistPixel_Line.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "GeistPixelSquare";
+  src: url("/fonts/GeistPixel_Square.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "GeistPixelTriangle";
+  src: url("/fonts/GeistPixel_Triangle.woff2") format("woff2");
+}
+
+/* Other fonts */
+@font-face {
+  font-family: "Goga";
+  src: url("/fonts/Goga_VariableVF.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Morph";
+  src: url("/fonts/morphRegular.woff2") format("woff2");
+}
+
+@theme {
+  --font-geist-circle: "GeistPixelCircle", sans-serif;
+  --font-geist-grid: "GeistPixelGrid", sans-serif;
+  --font-geist-line: "GeistPixelLine", sans-serif;
+  --font-geist-square: "GeistPixelSquare", sans-serif;
+  --font-geist-triangle: "GeistPixelTriangle", sans-serif;
+
+  --font-goga: "Goga", sans-serif;
+  --font-morph: "Morph", sans-serif;
+
+  --color-brand-primary: #99d52a;
+  --color-landing-secondary: #acc3a7;
+  --text-display-3: 40px;
+}
